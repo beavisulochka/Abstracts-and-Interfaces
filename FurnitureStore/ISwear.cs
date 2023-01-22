@@ -1,9 +1,9 @@
 ﻿using System;
 namespace FurnitureStore
 {
-	interface ISwear
-	{
-		public void Swear();
-	}
+    interface ISwear
+    {
+	 public void Swear();
+    }
 }
 
