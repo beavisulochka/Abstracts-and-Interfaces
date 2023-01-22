@@ -1,9 +1,9 @@
 ﻿using System;
 namespace FurnitureStore
 {
-	interface IMove
-	{
-		public void Move();
-	}
+    interface IMove
+    {
+	public void Move();
+    }
 }
 
