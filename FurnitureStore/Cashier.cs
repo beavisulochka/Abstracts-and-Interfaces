@@ -3,10 +3,10 @@ using System.Xml.Linq;
 
 namespace FurnitureStore
 {
-	public class Cashier : Worker, ICommunicationWithCustomer, ISwear
+    public class Cashier : Worker, ICommunicationWithCustomer, ISwear
     {
         public Cashier(string name, int age, string vacancy, int cashRegisterNumber)
-		{
+	{
             Name = name;
             Age = age;
             Vacancy = vacancy;
@@ -16,7 +16,7 @@ namespace FurnitureStore
         public string Name { get; }
         public int Age { get; set; }
         public string Vacancy { get; set; }
-		public int CashRregisterNumber { get; set; }
+	public int CashRregisterNumber { get; set; }
 
         public void Communicate()
         {
