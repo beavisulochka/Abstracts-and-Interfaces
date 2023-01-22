@@ -1,9 +1,9 @@
 ﻿using System;
 namespace FurnitureStore
 {
-	public interface ICommunicationWithCustomer
-	{
-		void Communicate();
-	}
+    public interface ICommunicationWithCustomer
+    {
+	void Communicate();
+    }
 }
 
