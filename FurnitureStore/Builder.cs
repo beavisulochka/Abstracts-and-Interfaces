@@ -1,8 +1,8 @@
 ﻿using System;
 namespace FurnitureStore
 {
-	public class Builder : Worker, ISwear, IMove
-	{
+   public class Builder : Worker, ISwear, IMove
+   {
         public Builder(string name, int age, string vacancy, string buildertype)
         {
             Name = name;
