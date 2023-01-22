@@ -3,14 +3,14 @@ using System.Xml.Linq;
 
 namespace FurnitureStore
 {
-	public class Driver : Worker, ISwear, IMove, ICommunicationWithCustomer
+    public class Driver : Worker, ISwear, IMove, ICommunicationWithCustomer
+    {
+	public Driver(string name, int age, string vacancy, string car)
 	{
-		public Driver(string name, int age, string vacancy, string car)
-		{
             Name = name;
             Age = age;
             Vacancy = vacancy;
-			Car = car;
+	    Car = car;
         }
 
         public string Name { get; }
@@ -33,6 +33,6 @@ namespace FurnitureStore
             Console.WriteLine($"Hi its {Name} from furniture company. Im near your house pls take your package.");
         }
 
-	}
+    }
 }
 
