@@ -1,8 +1,8 @@
 ﻿using System;
 namespace FurnitureStore
 {
-	public class Program
-	{
+    public class Program
+    {
         public static void Main(String[] args)
         {
             Driver Max = new Driver("Max", 34, "driver", "Chevrolet");
